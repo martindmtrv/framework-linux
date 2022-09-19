@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=StepMania
+GenericName=Rhythm and dance game
+Comment=A cross-platform rhythm video game.
+Icon=stepmania-ssc
+TryExec=stepmania-withpad
+Exec=stepmania-withpad
+Terminal=true
+Actions=
+Categories=Application;ArcadeGame;Game;

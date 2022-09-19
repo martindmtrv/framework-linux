@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# start dancepad
+sudo -v
+sudo uinput_ddrpad&
+
+# store the pid
+PID=$!
+
+# run stepmania
+stepmania
+
+# kill ddrpad
+sudo kill -9 $PID
+sudo kill -9 `pidof /usr/local/lib/uinput_ddrpad/uinput_ddrpad.real`

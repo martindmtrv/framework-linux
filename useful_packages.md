@@ -46,6 +46,7 @@ https://github.com/martindmtrv/arch-packages
 | fwupd | firmware / bios updates from fw |
 | qt*-wayland | qt plugin for wayland support |
 | kodi | for handling media db |
+| brightnessctl | set brightness levels from command line |
 
 
 add more as they come ...

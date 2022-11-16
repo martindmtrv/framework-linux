@@ -39,6 +39,14 @@ https://github.com/martindmtrv/arch-packages
 | code-extras | extra features for oss vscode |
 | code-marketplace | access marketplace from vscode oss |
 | code-icons | change to microsoft icons for vscode |
+| vi-vim-symlink | symlink vim to vi |
+| gvim | vim but with clipboard support |
+| webcord | web based open source alternative to discord app |
+| adwaita-qt* | get adwaita theme for qt apps |
+| fwupd | firmware / bios updates from fw |
+| qt*-wayland | qt plugin for wayland support |
+| kodi | for handling media db |
+
 
 add more as they come ...
 
@@ -47,11 +55,12 @@ add more as they come ...
 
 | package | why? |
 | ------- | ---- |
-| Dash to dock (broken for now using super+# commands) | enable always dock |
+| Dash to dock (super+# commands, super handy) | enable always dock |
 | alphabetical app grid | self explanatory |
 | caffeine | disable autosuspend |
 | gnome 4x UI improvements | subtle changes QoL to make gnome more clean |
 | notification banner reloaded | make tweaks to notifications (position, expanded, size?) |
 | switch workspaces on active monitor? | Allow individual monitor workspaces |
 | User themes | allow custom css styling |
+| Tactile | Window tiler |
 

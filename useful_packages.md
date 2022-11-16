@@ -47,6 +47,7 @@ https://github.com/martindmtrv/arch-packages
 | qt*-wayland | qt plugin for wayland support |
 | kodi | for handling media db |
 | brightnessctl | set brightness levels from command line |
+| wl-clipboard | clipboard access from command line tools |
 
 
 add more as they come ...

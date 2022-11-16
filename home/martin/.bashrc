@@ -13,6 +13,10 @@ then
    SEMESTER=Fall
 fi
 
+# clipboard operations
+alias cbc='wl-copy'
+alias cbp='wl-paste'
+
 # a macro to reach current years sideproject folder (by appending current yr to end of this cd command)
 alias sp='cd ~/Documents/sideprojects/'$year
 

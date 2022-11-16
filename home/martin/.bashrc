@@ -3,7 +3,7 @@ PS1="\W \$ "
 
 # open command
 alias o='xdg-open'
-
+alias idea='intellij-idea-ultimate-edition' 
 let "year=$(date +'%Y')"
 let "month=$(expr `date +%m` + 0)"
 
@@ -18,7 +18,11 @@ alias sp='cd ~/Documents/sideprojects/'$year
 
 alias school='cd ~/Documents/school/'$year-$((++year))/$SEMESTER
 
-alias lid-stop='systemd-inhibit --what=handle-lid-switch --mode=block /bin/sh'
+alias lid-stop='systemd-inhibit --what=handle-lid-switch snooze'
+
+# this shortcut will combine all pdfs in the current directory into one file
+# the order will be oldest first; USAGE: pdf-dir <output file name>
+alias pdf-dir='pdftk `ls -rt` cat output'
 
 ## Use the up and down arrow keys for finding a command in history
 ## (you can write some initial letters of the command first).

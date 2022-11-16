@@ -1,6 +1,9 @@
 #!/bin/bash
+echo "Setting minimum brightness"
 
-echo "This program just sleeps forever..."
+brightnessctl s 0
+
+echo "While this window is open, lid-close is disabled"
 
 while true
 do

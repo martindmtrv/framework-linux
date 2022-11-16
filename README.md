@@ -83,3 +83,28 @@ It enables tap to click for gdm user which is who you are before you login in gn
 EOS bundles GRUB by default. After the GRUB issue fiasco breaking the bootloader; I switched to systemd-boot. Pretty easy to setup following this guide
 
 https://forum.endeavouros.com/t/tutorial-convert-to-systemd-boot/13290
+
+# restore gnome settings
+
+Probably not safe to fully restore this on a new install but holds the keybindings and extension settings.
+
+
+Important key bindings:
+
+- Disabled the Super+P cycle windows shortcut in Mutter, so I could remap F9 key on Framework to something else (lid-stop)
+
+- Ctrl + Shift + T Terminal
+
+- Ctrl + Brightness down Set brightness minimum (backlight 0 / off not possible in gnome by default)
+
+- Ctrl + Brightness up Set max brightness
+
+- Ctrl + alt + delete open Gnome usage (like task manager)
+
+To dump only user-altered keys:
+
+  `dconf dump / > dump.dconf`
+
+To restore:
+
+  `dconf load / < dump.dconf`

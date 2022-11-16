@@ -1,0 +1,148 @@
+[org/gnome/desktop/peripherals/touchpad]
+disable-while-typing=false
+tap-to-click=true
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/sound]
+allow-volume-above-100-percent=true
+event-sounds=true
+theme-name='__custom'
+
+[org/gnome/desktop/wm/keybindings]
+move-to-monitor-left=@as []
+move-to-monitor-right=@as []
+move-to-workspace-left=['<Shift><Super>Left']
+move-to-workspace-right=['<Shift><Super>Right']
+
+[org/gnome/mutter]
+center-new-windows=true
+experimental-features=['scale-monitor-framebuffer']
+workspaces-only-on-primary=false
+
+[org/gnome/mutter/keybindings]
+switch-monitor=@as []
+
+[org/gnome/power-manager]
+info-history-graph-points=true
+info-history-graph-smooth=true
+info-history-time=21600
+info-history-type='charge'
+info-last-device='/org/freedesktop/UPower/devices/battery_BAT1'
+info-page-number=1
+info-stats-type='discharge-accuracy'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
+logout=@as []
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Control><Alt>t'
+command='gnome-terminal'
+name='Launch Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Control><Alt>Delete'
+command='gnome-usage'
+name='Launch Usage'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>p'
+command='gnome-terminal -- systemd-inhibit --what=handle-lid-switch snooze'
+name='Inhibit Lid Switch'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Control>MonBrightnessDown'
+command='brightnessctl s 0'
+name='Turn Off Backlight'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4]
+binding='<Control>MonBrightnessUp'
+command='brightnessctl s 96000'
+name='Max Brightness'
+
+[org/gnome/shell/extensions/alphabetical-app-grid]
+folder-order-position='start'
+
+[org/gnome/shell/extensions/another-window-session-manager]
+autorestore-sessions='4004'
+enable-autorestore-sessions=true
+
+[org/gnome/shell/extensions/app-grid-tweaks]
+app-icon-font-size=11.000000000000007
+appgrid-icon-size=128
+appgrid-max-columns=7
+
+[org/gnome/shell/extensions/dash-to-dock]
+apply-custom-theme=true
+background-opacity=0.80000000000000004
+custom-theme-shrink=false
+dash-max-icon-size=64
+disable-overview-on-startup=false
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+height-fraction=0.90000000000000002
+intellihide-mode='ALL_WINDOWS'
+middle-click-action='launch'
+multi-monitor=false
+preferred-monitor=-2
+preferred-monitor-by-connector='eDP-1'
+preview-size-scale=0.64000000000000001
+shift-click-action='launch'
+shift-middle-click-action='launch'
+show-show-apps-button=false
+show-trash=false
+
+[org/gnome/shell/extensions/dash2dock-lite]
+animate-icons=false
+animation-magnify=1.0
+animation-rise=1.0
+animation-spread=1.0
+background-dark=true
+background-opacity=1.0
+border-radius=3.0
+debug-visual=false
+pressure-sense=false
+shrink-icons=true
+translucent-topbar=true
+
+[org/gnome/shell/extensions/espresso]
+has-battery=true
+show-indicator=true
+show-notifications=false
+user-enabled=false
+
+[org/gnome/shell/extensions/gnome-ui-tune]
+always-show-thumbnails=true
+hide-search=true
+increase-thumbnails-size='200%'
+
+[org/gnome/shell/extensions/notification-banner-reloaded]
+always-minimized=1
+anchor-horizontal=1
+animation-direction=1
+padding-horizontal=0
+
+[org/gnome/shell/extensions/quick-settings-tweaks]
+button-labels='{"NMWirelessToggle":"Wi-Fi","NMVpnToggle":"Carleton VPN","BluetoothToggle":"Bluetooth","NightLightToggle":"Night Light","DarkModeToggle":"Dark Mode","RfkillToggle":"Airplane Mode","RotationToggle":"Auto Rotate"}'
+default-invisible-buttons=['InputStreamSlider', 'NMWiredToggle', 'NMModemToggle', 'NMBluetoothToggle', 'PowerProfilesToggle', 'RotationToggle']
+list-buttons='[{"name":"Clutter_Actor","label":null,"visible":true},{"name":"SystemItem","label":null,"visible":true},{"name":"OutputStreamSlider","label":null,"visible":true},{"name":"InputStreamSlider","label":null,"visible":false},{"name":"St_BoxLayout","label":null,"visible":true},{"name":"BrightnessItem","label":null,"visible":true},{"name":"NMWiredToggle","label":null,"visible":false},{"name":"NMWirelessToggle","label":"QWERTY","visible":true},{"name":"NMModemToggle","label":null,"visible":false},{"name":"NMBluetoothToggle","label":null,"visible":false},{"name":"NMVpnToggle","label":"Carleton VPN","visible":true},{"name":"BluetoothToggle","label":"Bluetooth","visible":true},{"name":"PowerProfilesToggle","label":null,"visible":false},{"name":"NightLightToggle","label":"Night Light","visible":true},{"name":"DarkModeToggle","label":"Dark Mode","visible":false},{"name":"RfkillToggle","label":"Airplane Mode","visible":true},{"name":"RotationToggle","label":"Auto Rotate","visible":false},{"name":"DndQuickToogle","label":"Do Not Disturb","visible":true},{"name":"MediaSection","label":null,"visible":false},{"name":"Notifications","label":null,"visible":true}]'
+notifications-dnd-switch=false
+notifications-hide-when-no-notifications=false
+user-removed-buttons=['NightLightToggle', 'DarkModeToggle', 'DndQuickToogle']
+
+[org/gnome/shell/extensions/tactile]
+col-2=0
+col-3=0
+monitor-0-layout=1
+tile-0-0=['u']
+tile-0-1=['j']
+tile-1-0=['i']
+tile-1-1=['k']
+
+[org/gnome/shell/extensions/user-theme]
+name='martin'
+
+[org/gnome/terminal/legacy]
+theme-variant='dark'
+

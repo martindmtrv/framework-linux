@@ -108,3 +108,13 @@ To dump only user-altered keys:
 To restore:
 
   `dconf load / < dump.dconf`
+
+# get .local addresses to work
+
+source: https://wiki.archlinux.org/title/avahi
+
+Install nss-mdns
+
+Add to /etc/nsswitch
+
+`hosts: mymachines mdns_minimal [NOTFOUND=return] resolve[!UNAVAIL=return] files myhostname dns`

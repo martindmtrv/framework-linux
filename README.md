@@ -118,3 +118,17 @@ Install nss-mdns
 Add to /etc/nsswitch
 
 `hosts: mymachines mdns_minimal [NOTFOUND=return] resolve[!UNAVAIL=return] files myhostname dns`
+
+# kitty terminal emulator
+
+https://sw.kovidgoyal.net/kitty/
+
+# neovim scrollback kitty
+
+https://github.com/mikesmithgh/kitty-scrollback.nvim
+
+
+# minimal alternative to tmux, supporting native scrollback
+
+https://github.com/austinjones/tab-rs
+

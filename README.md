@@ -132,3 +132,7 @@ https://github.com/mikesmithgh/kitty-scrollback.nvim
 
 https://github.com/austinjones/tab-rs
 
+
+# read book on kindle
+
+https://aur.archlinux.org/packages/gourou#comment-906576
